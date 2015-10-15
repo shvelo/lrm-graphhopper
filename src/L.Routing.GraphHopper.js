@@ -5,7 +5,8 @@
 	var corslite = require('corslite');
 	var polyline = require('polyline');
 
-	L.Routing = L.Routing || {};
+	if(L.Routing === undefined)
+		L.Routing = {};
 
 	L.Routing.GraphHopper = L.Class.extend({
 		options: {
