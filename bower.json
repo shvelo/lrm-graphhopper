@@ -1,6 +1,6 @@
 {
   "name": "lrm-graphhopper",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Support for GraphHopper in Leaflet Routing Machine",
   "main": "dist/lrm-graphhopper.js",
   "keywords": [
